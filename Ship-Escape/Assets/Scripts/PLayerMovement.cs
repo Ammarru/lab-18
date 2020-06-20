@@ -11,11 +11,15 @@ public class PLayerMovement : MonoBehaviour
 
     Vector2 movement;
 
+    public Animator animator;
+
 
 
     // Update is called once per frame
     void Update()
     {
+        animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+        animator.SetFloat("Vertical", Input.GetAxis("Vertical"));
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
     }
