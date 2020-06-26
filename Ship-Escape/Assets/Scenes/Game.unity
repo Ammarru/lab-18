@@ -7460,8 +7460,14 @@ Transform:
   m_Father: {fileID: 1071070935}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!483693784 &1306129708
-TilemapRenderer:
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 16.4, y: 32.6}
+  m_SizeDelta: {x: 152.01404, y: 38.182014}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1334439259
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
