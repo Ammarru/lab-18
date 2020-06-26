@@ -1,0 +1,78 @@
+[33mcommit 4f3af4f76a43b033eddddfae79e06e8e73d6d9ad[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Ammarru <62930502+Ammarru@users.noreply.github.com>
+Date:   Fri Jun 26 21:18:20 2020 +0700
+
+    top down
+
+[33mcommit c88ddf21a9184cd0c89d60cd6f086d7c11f1c2be[m
+Author: dima04112001 <56406646+dima04112001@users.noreply.github.com>
+Date:   Fri Jun 26 20:59:08 2020 +0700
+
+    Revert "made a pause menu"
+    
+    This reverts commit a8332d3443a654b6968519a264c7bfb33590eb99.
+
+[33mcommit a8332d3443a654b6968519a264c7bfb33590eb99[m
+Author: dima04112001 <56406646+dima04112001@users.noreply.github.com>
+Date:   Fri Jun 26 20:45:37 2020 +0700
+
+    made a pause menu
+
+[33mcommit 40f34c5231ec151002aa2ad157a947b6a58f63f5[m
+Author: dima04112001 <56406646+dima04112001@users.noreply.github.com>
+Date:   Fri Jun 26 15:32:39 2020 +0700
+
+    Update menu.unity
+
+[33mcommit 5928401dffb36ac54c1bf911496799ddd89dc44a[m
+Author: dima04112001 <56406646+dima04112001@users.noreply.github.com>
+Date:   Fri Jun 26 15:26:09 2020 +0700
+
+    Revert "make pause_menu"
+    
+    This reverts commit 00c72a146800247fe450a4b468ab6179f309bf97.
+
+[33mcommit 00c72a146800247fe450a4b468ab6179f309bf97[m
+Author: dima04112001 <56406646+dima04112001@users.noreply.github.com>
+Date:   Tue Jun 23 20:19:51 2020 +0700
+
+    make pause_menu
+
+[33mcommit 88f4c0c9553cba22b781f1fff82ef47a17eb911b[m
+Merge: 8d7cce1 8e51657
+Author: Ammarru <62930502+Ammarru@users.noreply.github.com>
+Date:   Sat Jun 20 01:17:10 2020 -0700
+
+    Merge pull request #1 from Ammarru/staging
+    
+    new character, animation, camera follow
+
+[33mcommit 8e51657c521ba75e5e4b7186067ef79763d50230[m[33m ([m[1;32mstaging[m[33m)[m
+Author: Ammarru <62930502+Ammarru@users.noreply.github.com>
+Date:   Sat Jun 20 15:13:51 2020 +0700
+
+    new character, animation, camera follow
+
+[33mcommit 8d7cce179d470bdc53cba80f63e75c0f8d1e5a2c[m
+Author: unknown <v.linkov01@mail.ru>
+Date:   Sat Jun 20 00:04:18 2020 +0700
+
+    Made some changes
+
+[33mcommit a38970fdd903547d13bf68f635c50ce177527eec[m
+Author: unknown <v.linkov01@mail.ru>
+Date:   Fri Jun 19 21:33:10 2020 +0700
+
+    Add Check.txt
+
+[33mcommit 402b4c0d9123f01eb2199fdfe22c43925a7eb12d[m
+Author: Ammarru <62930502+Ammarru@users.noreply.github.com>
+Date:   Sun Jun 14 14:19:22 2020 +0700
+
+    player movement
+
+[33mcommit 74776d6c1cb87cf0051f160e78fbc66d88c8dc8d[m
+Author: Ammarru <62930502+Ammarru@users.noreply.github.com>
+Date:   Sun Jun 14 13:32:12 2020 +0700
+
+    initial commit
