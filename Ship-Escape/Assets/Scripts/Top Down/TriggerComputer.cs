@@ -2,31 +2,52 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class TriggerComputer : MonoBehaviour
 {
-    public GameObject uiObject;
+    public GameObject interactText;
+    public GameObject dialoug;
+    public Text textDisplay;
+    public string[] sentences;
+    private int index;
+    public float typingSpeed;
     // Start is called before the first frame update
     void Start()
     {
-         uiObject.SetActive(false);
+         interactText.SetActive(false);
+         dialoug.SetActive(false);
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag=="Player"){
-            uiObject.SetActive(true);
-
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.tag==("Player"))
+        {
+            interactText.SetActive(true);
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    void OnTriggerStay2D(Collider2D other) {
+            
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            dialoug.SetActive(true);
+            StartCoroutine(Type());
+        }
         
     }
+    
+    
      void OnTriggerExit2D(Collider2D other) 
     {  
-         uiObject.SetActive(false);
+         interactText.SetActive(false);
+         dialoug.SetActive(false);
+    }
+
+    IEnumerator Type(){
+        foreach(char letter in sentences[index].ToCharArray())
+        {
+            textDisplay.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }
     }
 }
