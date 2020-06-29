@@ -49,6 +49,7 @@ public class TriggerComputer : MonoBehaviour
         triggerEntered=false;
         interactText.SetActive(false);
         dialoug.SetActive(false);
+        index = 0;
     }
 
     IEnumerator Type(){
@@ -72,6 +73,7 @@ public class TriggerComputer : MonoBehaviour
         {
             textDisplay.text = "";
             nextButton.SetActive(false);
+            index=0;
         }
     }
 }
