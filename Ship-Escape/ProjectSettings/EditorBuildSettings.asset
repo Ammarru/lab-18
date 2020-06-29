@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/menu.unity
     guid: 76b137a48f8819342b815b0aa07aea93
   - enabled: 1
-    path: Assets/Scenes/Game.unity
+    path: Assets/Scenes/LevelOne.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/UniversalSideScroll.unity
