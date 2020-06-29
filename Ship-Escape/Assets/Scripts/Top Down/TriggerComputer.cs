@@ -47,6 +47,7 @@ public class TriggerComputer : MonoBehaviour
      void OnTriggerExit2D(Collider2D other) 
     {  
         triggerEntered=false;
+        textDisplay.text = "";
         interactText.SetActive(false);
         dialoug.SetActive(false);
         index = 0;
