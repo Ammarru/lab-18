@@ -20,6 +20,7 @@ public class PLayerMovement : MonoBehaviour
     {
         animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
         animator.SetFloat("Vertical", Input.GetAxis("Vertical"));
+        animator.SetFloat("Speed", movement.sqrMagnitude);
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
     }
