@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DoorClosed
+  m_Name: doorIdle
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -21,10 +21,6 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300000, guid: fd50cb7cb9cd1564f962cdac18d3ee32, type: 3}
-    - time: 0.016666668
-      value: {fileID: 21300000, guid: 85a9ea91b3bd2e140a818545761ca42f, type: 3}
-    - time: 0.033333335
-      value: {fileID: 21300000, guid: ac8759a4344e59c48a90fd2d19db4bea, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -45,14 +41,12 @@ AnimationClip:
       isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 21300000, guid: fd50cb7cb9cd1564f962cdac18d3ee32, type: 3}
-    - {fileID: 21300000, guid: 85a9ea91b3bd2e140a818545761ca42f, type: 3}
-    - {fileID: 21300000, guid: ac8759a4344e59c48a90fd2d19db4bea, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.050000004
+    m_StopTime: 0.016666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
