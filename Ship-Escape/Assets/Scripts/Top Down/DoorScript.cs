@@ -21,6 +21,7 @@ public class DoorScript : MonoBehaviour
         if (other.tag=="Player")
         {
             animator.SetBool("trigger",true);   
+            
         }
     }
 
