@@ -490,6 +490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cbbe7a310a935e4ea1215d388562f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monster: {fileID: 0}
 --- !u!212 &94162389
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1098,6 +1099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cbbe7a310a935e4ea1215d388562f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monster: {fileID: 0}
 --- !u!212 &404685922
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1594,6 +1596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cbbe7a310a935e4ea1215d388562f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monster: {fileID: 0}
 --- !u!212 &600895912
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3165,6 +3168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cbbe7a310a935e4ea1215d388562f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monster: {fileID: 0}
 --- !u!212 &954738776
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3639,6 +3643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cbbe7a310a935e4ea1215d388562f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monster: {fileID: 0}
 --- !u!212 &1132774014
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3778,6 +3783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cbbe7a310a935e4ea1215d388562f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monster: {fileID: 0}
 --- !u!212 &1221500955
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3968,6 +3974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cbbe7a310a935e4ea1215d388562f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monster: {fileID: 0}
 --- !u!212 &1244302672
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4251,6 +4258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cbbe7a310a935e4ea1215d388562f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monster: {fileID: 0}
 --- !u!212 &1301876143
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4587,12 +4595,13 @@ PrefabInstance:
     - target: {fileID: 1656220585777698850, guid: 3e390660d6f02324088de2b154cff26f,
         type: 3}
       propertyPath: sentences.Array.data[0]
-      value: This is a test
+      value: System boot .......................... Verification of subsystems ........................
       objectReference: {fileID: 0}
     - target: {fileID: 1656220585777698850, guid: 3e390660d6f02324088de2b154cff26f,
         type: 3}
       propertyPath: sentences.Array.data[1]
-      value: 'I said this is test. '
+      value: 'Status: Damage to the case - 49.4% Power of the main generator - 31.1%
+        Integrity of internal systems - 60%'
       objectReference: {fileID: 0}
     - target: {fileID: 1656220585777698850, guid: 3e390660d6f02324088de2b154cff26f,
         type: 3}
@@ -4602,12 +4611,14 @@ PrefabInstance:
     - target: {fileID: 1656220585777698850, guid: 3e390660d6f02324088de2b154cff26f,
         type: 3}
       propertyPath: sentences.Array.data[2]
-      value: 'I said this is test. '
+      value: 'Analysis............. Result: Presumably a collision with a meteorite
+        in the western module !!! The penetration of alien life forms is recorded
+        !!!'
       objectReference: {fileID: 0}
     - target: {fileID: 1656220585777698850, guid: 3e390660d6f02324088de2b154cff26f,
         type: 3}
       propertyPath: sentences.Array.data[3]
-      value: 'I said this is test. '
+      value: 'Recommendations: Immediately proceed to the evacuation module'
       objectReference: {fileID: 0}
     - target: {fileID: 1656220585777698851, guid: 3e390660d6f02324088de2b154cff26f,
         type: 3}
@@ -13292,6 +13303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cbbe7a310a935e4ea1215d388562f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monster: {fileID: 0}
 --- !u!212 &1841822401
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18274,6 +18286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cbbe7a310a935e4ea1215d388562f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monster: {fileID: 0}
 --- !u!212 &1962736744
 SpriteRenderer:
   m_ObjectHideFlags: 0
