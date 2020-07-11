@@ -22,7 +22,7 @@ public class Atach : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(EnemyHealth <= 0) SceneManager.LoadScene("LevelOne");
+        if(EnemyHealth <= 0) SceneManager.LoadScene("Starter");
     }
     public void MainAttack()
     {

@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelOne.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/UniversalSideScroll.unity
+    path: Assets/Scenes/TrainBattle.unity
     guid: 403fc86515f36f243aa50d66a5c23221
   m_configObjects: {}
