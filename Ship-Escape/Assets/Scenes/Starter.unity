@@ -2177,8 +2177,10 @@ MonoBehaviour:
   dialoug: {fileID: 764298992}
   textDisplay: {fileID: 1210546666}
   sentences:
-  - This is a test
-  - A test this is.
+  - Oh, you're alive.
+  - I thought we lost you.
+  - It seems we will not be alive for long anyway
+  - Go to upper facility, you'll find the turret there, we can use to defend.
   typingSpeed: 0.02
   nextButton: {fileID: 520297558}
 --- !u!1 &854994013
@@ -4692,22 +4694,22 @@ PrefabInstance:
     - target: {fileID: 1415554799815521356, guid: 181dd0bcb164e9b4bac4c9a57922c238,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 205.08
+      value: 277.6
       objectReference: {fileID: 0}
     - target: {fileID: 1415554799815521356, guid: 181dd0bcb164e9b4bac4c9a57922c238,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 78.75
+      value: 116.45
       objectReference: {fileID: 0}
     - target: {fileID: 1415554799815521356, guid: 181dd0bcb164e9b4bac4c9a57922c238,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 410.153
+      value: 555.1965
       objectReference: {fileID: 0}
     - target: {fileID: 1415554799815521356, guid: 181dd0bcb164e9b4bac4c9a57922c238,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 168.5
+      value: 243.89124
       objectReference: {fileID: 0}
     - target: {fileID: 1415554799817951360, guid: 181dd0bcb164e9b4bac4c9a57922c238,
         type: 3}
@@ -4818,6 +4820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415554799817951374, guid: 181dd0bcb164e9b4bac4c9a57922c238,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 181dd0bcb164e9b4bac4c9a57922c238, type: 3}
@@ -18188,7 +18195,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -18936,10 +18943,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4539525335006400578, guid: ea15294f1e730d54a8342d82dd810aaa,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539525335006400578, guid: ea15294f1e730d54a8342d82dd810aaa,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4539525335583584088, guid: ea15294f1e730d54a8342d82dd810aaa,
         type: 3}
       propertyPath: m_Name
       value: Dialoug
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539525335583584088, guid: ea15294f1e730d54a8342d82dd810aaa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539525335583584090, guid: ea15294f1e730d54a8342d82dd810aaa,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4539525335583584092, guid: ea15294f1e730d54a8342d82dd810aaa,
         type: 3}
@@ -19045,6 +19072,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539525335741506824, guid: ea15294f1e730d54a8342d82dd810aaa,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4539525335741506824, guid: ea15294f1e730d54a8342d82dd810aaa,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 4539525336430622192, guid: ea15294f1e730d54a8342d82dd810aaa,
         type: 3}
