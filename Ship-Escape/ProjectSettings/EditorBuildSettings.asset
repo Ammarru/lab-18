@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TrainBattle.unity
     guid: 403fc86515f36f243aa50d66a5c23221
+  - enabled: 1
+    path: Assets/Scenes/FrstBattle.unity
+    guid: d45471149ebb72e4090089a034073ac9
   m_configObjects: {}
