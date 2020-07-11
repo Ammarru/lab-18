@@ -9,6 +9,6 @@ public class TriggerMonsters : MonoBehaviour
      void OnTriggerEnter2D(Collider2D other)
     {
         Destroy(monster);
-        SceneManager.LoadScene("UniversalSideScroll");
+        SceneManager.LoadScene("TrainBattle");
     }
 }
